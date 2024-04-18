@@ -1,18 +1,13 @@
-import _ from 'lodash';
+import { add } from "lodash";
+import displayHome from "./home";
+import displayMenu from "./menu";
+import displayAbout from "./about";
 
+let homebtn = document.querySelector('#home');
+let menubtn = document.querySelector('#menu');
+let aboutbtn = document.querySelector('#about');
 
- function component() {
-   const element = document.createElement('div');
+homebtn.addEventListener('click',displayHome);
+menubtn.addEventListener('click', displayMenu);
+aboutbtn.addEventListener('click',displayAbout);
 
-
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-
-
-
-
-   return element;
- }
-
- document.body.appendChild(component());
-
- console.log("Bug!")
