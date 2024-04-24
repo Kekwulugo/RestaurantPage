@@ -11,4 +11,5 @@ This project is built with HTML, CSS & vanilla JS. The majority of the HTML is d
 See the live demo here: https://kekwulugo.github.io/RestaurantPage
 
 ## Project Screenshot
-![alt text]projectscreenshot.png
+
+![alt text](projectscreenshot.png)
