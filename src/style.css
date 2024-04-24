@@ -1,0 +1,102 @@
+@font-face {
+ font-family: 'Futura';
+ src: url(./fonts/Futura\ Bold\ Italic.otf);
+}
+
+*{
+ font-family: 'Courier New', Courier, monospace;
+}
+
+#content{
+ text-align: center;
+ vertical-align: middle;
+ max-width: 1000px;
+ margin: 100px auto 150px auto;
+
+}
+
+
+nav{
+ text-align: center;
+ position: fixed;
+ background-color: white;
+ top: 0;
+ width: 100%;
+}
+
+button{
+ background-color: #DA2727;
+ max-width: 100px;
+ margin: 10px;
+ padding: 10px;
+ color: white;
+ font-size: large;
+ border: none;
+ text-align: center;
+ font-family: 'Futura';
+ 
+}
+
+h4, h1{
+ font-family: 'Futura';
+ margin: 0;
+}
+
+h2{
+ padding: 20px 0 20px 0;
+ font-size: x-large;
+ font-family: 'Futura';
+ text-align: center;
+
+}
+h3{
+ font-weight: normal;
+}
+
+
+li{
+ list-style: none;
+}
+
+form{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ border: 2px solid #DA2727;
+ border-radius: 20px;
+ padding: 20px;
+ margin: 50px auto;
+ max-width: 500px; 
+ 
+}
+input, textarea{
+ border: 2px solid #DA2727;
+ border-radius: 20px;
+ margin: 10px;
+ 
+}
+
+input{
+height: 30px;
+}
+
+footer{
+ position: fixed;
+  background-color: #DA2727;
+  color: white;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  
+
+}
+
+iframe{
+ width: 600px;
+ height: 300px;
+}
+
+

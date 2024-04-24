@@ -19,12 +19,10 @@ export default function displayHome(){
   }
  }
 
- console.log(restaurantInfo.hours.Friday)
-
 
  let divContainer = document.createElement('div');
 
- let heading = document.createElement('h2');
+ let heading = document.createElement('h1');
  heading.innerText = restaurantInfo.name;
 
  let blurb = document.createElement('p');

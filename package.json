@@ -13,8 +13,12 @@
   "license": "ISC",
   "keywords": [],
   "devDependencies": {
+    "css": "^3.0.0",
+    "css-loader": "^7.1.1",
     "html": "^1.0.0",
     "html-webpack-plugin": "^5.6.0",
+    "loader": "^2.1.1",
+    "style-loader": "^4.0.0",
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "webpack-plugin": "^1.0.5"
